@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Loading from "./Loading";
 import NewsItem from "./NewsItem";
 import PropTypes from "prop-types";
-const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+const proxyUrl ="https://api.codetabs.com/v1/proxy?quest=";
 export class News extends Component {
   constructor(props) {
     super(props);
